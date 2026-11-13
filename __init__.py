@@ -49,7 +49,7 @@ FALLBACK_DEFAULTS = {
     'sculpt': (True, False, False),
     'vertex_paint': (False, False, False),
     'weight_paint': (False, False, False),
-    'texture_paint': (True, False, False),
+    'texture_paint': (False, False, False),
 }
 
 # Weight Paint only supports X symmetry, so only X is offered for it.
