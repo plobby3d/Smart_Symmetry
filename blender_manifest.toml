@@ -4,7 +4,7 @@ id = "smart_symmetry"
 version = "1.0.0"
 name = "Smart Symmetry"
 tagline = "Remember symmetry settings separately for each mode"
-maintainer = "Plobby"
+maintainer = "Plobby3D"
 type = "add-on"
 
 blender_version_min = "5.0.0"
