@@ -20,8 +20,8 @@ from bpy.app.handlers import persistent
 # from the addon's preferences is used instead.
 #
 # The memory is stored on each object, so it is saved in the .blend file and
-# comes back when the project is reopened (unless "Apply Defaults When
-# Opening a Project" is on, which clears it on load).
+# comes back when the project is reopened (unless "Reapply Defaults When
+# Opening Existing Project" is on, which clears it on load).
 #
 # Blender only allows X symmetry in Weight Paint (Y and Z are read-only
 # there), so axes Blender won't let us change in a mode are left alone.
@@ -77,7 +77,7 @@ class SmartSymmetryPreferences(bpy.types.AddonPreferences):
         default=True,
     )
     apply_defaults_on_load: bpy.props.BoolProperty(
-        name="Apply Defaults When Opening a Project",
+        name="Reapply Defaults When Opening Existing Project",
         description=(
             "When a project is opened, discard the symmetry remembered in "
             "that file and start every mode from the defaults below. When "

@@ -1,7 +1,7 @@
 schema_version = "1.0.0"
 
 id = "smart_symmetry"
-version = "3.1.0"
+version = "1.0.0"
 name = "Smart Symmetry"
 tagline = "Remember symmetry settings separately for each mode"
 maintainer = "Plobby"
