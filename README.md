@@ -13,3 +13,5 @@ This add on allows you to set a default symmetry setting on each axis in each mo
 By default, new objects will have the "Fix Poles" remeshing option switched on when first entering sculpt mode. 
 
 All of the settings can be toggled on/off in the add-on preferences panel. 
+
+<img width="1061" height="1024" alt="smartsym" src="https://github.com/user-attachments/assets/cf4bf8c2-c081-4dc8-ba58-43c168b8d744" />
